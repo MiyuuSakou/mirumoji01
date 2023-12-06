@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+
+h1 {
+  background: linear-gradient(transparent 70%, #a7d6ff 70%);
+}
+
+
+h2 {
+    text-align: center;
+      color: #6594e0;/*文字色*/
+      /*線の種類（点線）2px 線色*/
+      border-bottom: dashed 2px #6594e0;
+    }
+
+    h4 {
+      /*線の種類（実線） 太さ 色*/
+      border-bottom: solid 3px black;
+    }
+    
+  
+  #gallery {
+    display: grid;
+    max-width: 1000px;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .img-item {
+    opacity: 0;
+    filter: blur(10px);
+    width: 100%;
+  }
+  
+  .img-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .img-item p {
+    text-align: center;
+  }
+  
+  footer {
+    text-align: center;
+    color: #EEE;
+  }
